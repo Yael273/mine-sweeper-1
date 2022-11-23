@@ -51,7 +51,8 @@ table {
 
 } */
 button {
-    font-family: myFirstFont;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/*     font-family: myFirstFont; */
     margin-top: 20px;
     /* border: none; */
     /* border-radius: 10px; */
