@@ -1,7 +1,7 @@
 body {
     text-align: center;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    font-family: myFirstFont;
+    font-family: myFirstFont, 'Segoe UI', Tahoma;
     /* font-weight: bold; */
     background-color: rgb(236, 231, 222);
     /* background-color: rgb(77, 77, 77); */
