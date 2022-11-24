@@ -35,3 +35,12 @@ function createTime(timeInMilliseconds) {
 function getRandomIntInclusive(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+function getClassName(location) {
+    const cellClass = 'cell-' + location.i + '-' + location.j
+    return cellClass
+}
+
+
+const noRightClick = document.querySelector('table');
+    noRightClick.addEventListener("contextmenu", e => e.preventDefault());

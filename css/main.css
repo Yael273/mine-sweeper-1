@@ -1,16 +1,24 @@
 body {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-/*     font-family: myFirstFont, 'Segoe UI', Tahoma; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: myFirstFont, 'Segoe UI', Tahoma;
     /* font-weight: bold; */
     background-color: rgb(236, 231, 222);
-    /* background-color: rgb(77, 77, 77); */
+    /* background-color: rgb(231, 162, 179); */
+    /* background-color: rgb(97, 97, 97); */
 }
-
+/* .pop{
+    background-color: rgb(236, 231, 222);
+    background-color: rgb(231, 162, 179);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline-block;
+} */
 H1 {
     color: rgb(255, 196, 0);
     /* -webkit-text-stroke: 1px  rgb(255, 196, 0); */
-/*     -webkit-text-stroke: 0.2px  rgb(0, 0, 0); */
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
     font-weight: bolder;
     font-size: 35px;
 }
@@ -25,14 +33,19 @@ table {
     width: 40px;
     height: 40px;
     text-align: center;
-    border-bottom: 2px solid #7B7B7B;
-    border-left: 2px solid #ffffff;
-    border-top: 2px solid #ffffff;
-    border-right: 2px solid #7B7B7B;
+    border-bottom: 5px solid #7B7B7B;
+    border-left: 5px solid #ffffff;
+    border-top: 5px solid #ffffff;
+    border-right: 5px solid #7B7B7B;
 }
 
 .cell:active {
     background-color: gray;
+    border: none;
+}
+.cell:after{
+    background-color: gray;
+    border: none;
 }
 
 .mine {
@@ -43,16 +56,15 @@ table {
     background-color: gray
 }
 
-.mark {
+/* .mark {
     background-color: rgb(211, 193, 167);
-}
+} */
 
 /* .selected{
 
 } */
 button {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-/*     font-family: myFirstFont; */
+    font-family: myFirstFont, 'Segoe UI', Tahoma;
     margin-top: 20px;
     /* border: none; */
     /* border-radius: 10px; */
@@ -66,6 +78,7 @@ button {
 
 button:active {
     background-color: gray;
+    border: none;
 }
 
 button:hover {
@@ -105,4 +118,3 @@ button:hover {
     font-family: myFirstFont;
     src: url(/font/Retro-Gaming.ttf);
 }
-
